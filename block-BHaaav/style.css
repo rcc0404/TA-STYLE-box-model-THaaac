@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custome style */
+
+header{
+    background-color: #2D3040;
+
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top:  10px;
+}
+nav{
+    text-align: center;
+    padding: 10px 32px;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    padding-top: 80px;
+    margin-left: 100px;
+}
+div{
+    margin-left: 100px;
+}
+p{
+    color: white;
+    font-size: 13px;
+    margin-left: 100px;
+    }
+
+h4{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h3{
+    color: white;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+.marker{
+    background-color: #45558D;
+}
+.learn{
+    text-decoration: none;
+    text-align: left;
+    margin-left: 100px;
+}
+.nature{
+    width: 300px;
+    height: 200px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.mark{
+    background-color: #45558D;
+}
+.marked{
+    background-color: #3F4E85;
+}
+.end{
+    background-color: #2D3040;
+    color: #6F707C;
+    padding: 20px;
+}
+.end a{
+    text-decoration: none;
+    color: #6F707C;
+    margin-left: 100px;
+}
